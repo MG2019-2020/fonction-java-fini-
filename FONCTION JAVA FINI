@@ -1,0 +1,29 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+<script language="JavaScript">
+console.log("test");
+
+var m= prompt("m")
+var p= prompt("p")
+var x= 0
+m=parseFloat(m)
+p=parseFloat(p)
+for(var i=0;i<10;i=i+1){
+	var y= m*x+p
+	texte=document.createTextNode(y)
+	paragraphe=document.createElement("p")
+	document.body.appendChild(paragraphe)
+	paragraphe.appendChild(texte)
+	var x= x+1
+	}
+
+parseFloat
+</script>
+</body>
+
+</html>
